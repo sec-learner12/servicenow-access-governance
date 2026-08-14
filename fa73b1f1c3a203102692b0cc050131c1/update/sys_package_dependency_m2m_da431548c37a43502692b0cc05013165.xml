@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">07e45024f54003100a22c0b3dfa151f4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 12:08:50</sys_created_on>
+        <sys_id>da431548c37a43502692b0cc05013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 12:08:50</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

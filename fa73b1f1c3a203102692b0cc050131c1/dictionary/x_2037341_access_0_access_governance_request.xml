@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4a431548c37a43502692b0cc0501313f" extends="task" label="Access Governance Request" max_length="40" name="x_2037341_access_0_access_governance_request" type="collection">
+        <element label="Target User" max_length="32" name="target_user" reference="sys_user" type="reference"/>
+        <element label="Expiration Date" max_length="40" name="expiration_date" type="glide_date_time"/>
+        <element label="Security Context" max_length="4000" name="security_context" type="string"/>
+        <element label="Target Role" max_length="32" name="target_role" reference="sys_user" type="reference"/>
+        <element choice="1" label="Governance Action" max_length="40" name="governance_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offboard user" sequence="0" value="offboard_user"/>
+                <element inactive_on_update="false" label="Privileged Access Renewal" sequence="2" value="privileged_access_renewal"/>
+                <element inactive_on_update="false" label="Modify Roles" sequence="1" value="modify_roles"/>
+            </choice>
+        </element>
+    </element>
+</database>
