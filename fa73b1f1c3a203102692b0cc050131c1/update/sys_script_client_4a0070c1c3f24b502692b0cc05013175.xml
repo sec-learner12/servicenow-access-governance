@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Whenever that target user field changes, it will trigger an asynchronous call to our AccessGovernanceUtils and auto-populate the security_context field.</description>
+        <field>target_user</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Security Context</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' || newValue === oldValue) {
+        if (newValue === '') {
+            g_form.clearValue('security_context');
+        }
+        return;
+    }
+
+    // Replace with your EXACT Script Include API Name from Studio
+    var ga = new GlideAjax('x_2037341_access_0.AccessGovernanceUtils'); 
+    ga.addParam('sysparm_name', 'getUserSecurityContext');
+    ga.addParam('sysparm_user_id', newValue);
+
+    ga.getXMLAnswer(function(response) {
+        if (!response) {
+            jslog('AccessGovernance: No response received from server.');
+            return;
+        }
+
+        try {
+            var result = JSON.parse(response);
+
+            if (result.status === 'success') {
+                var contextString = '--- ACTIVE SECURITY CONTEXT ---\n';
+                contextString += 'ROLES: ' + (result.roles.length > 0 ? result.roles.join(', ') : 'None') + '\n\n';
+                contextString += 'GROUPS: ' + (result.groups.length > 0 ? result.groups.join(', ') : 'None');
+
+                g_form.setValue('security_context', contextString);
+            } else {
+                g_form.addErrorMessage('Security Context Error: ' + result.message);
+            }
+        } catch (err) {
+            jslog('AccessGovernance Parsing Error: ' + err);
+        }
+    });
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 12:28:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a0070c1c3f24b502692b0cc05013175</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Populate Security Context</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>sys_script_client_4a0070c1c3f24b502692b0cc05013175</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 12:55:04</sys_updated_on>
+        <table>x_2037341_access_0_access_governance_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

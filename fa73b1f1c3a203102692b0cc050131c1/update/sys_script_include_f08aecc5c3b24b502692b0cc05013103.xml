@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_2037341_access_0.AccessGovernanceUtils</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>true</client_callable>
+        <description>Fetches active roles and group memberships for a target user.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>AccessGovernanceUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AccessGovernanceUtils = Class.create();
+AccessGovernanceUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getUserSecurityContext: function() {
+        var userId = this.getParameter('sysparm_user_id');
+
+        var result = {
+            roles: [],
+            groups: [],
+            status: 'success'
+        };
+
+        if (!userId) {
+            result.status = 'error';
+            result.message = 'No User ID provided.';
+            return JSON.stringify(result);
+        }
+
+        try {
+            // 1. Fetch User Roles
+            var roleGr = new GlideRecord('sys_user_has_role');
+            roleGr.addQuery('user', userId);
+            roleGr.addNotNullQuery('role');
+            roleGr.query();
+
+            while (roleGr.next()) {
+                // Safe check to avoid null reference exceptions
+                if (roleGr.role && roleGr.role.getDisplayValue()) {
+                    var roleName = roleGr.role.name ? roleGr.role.name.toString() : roleGr.role.getDisplayValue();
+                    if (result.roles.indexOf(roleName) === -1) {
+                        result.roles.push(roleName);
+                    }
+                }
+            }
+
+            // 2. Fetch User Groups
+            var groupGr = new GlideRecord('sys_user_grmember');
+            groupGr.addQuery('user', userId);
+            groupGr.addNotNullQuery('group');
+            groupGr.query();
+
+            while (groupGr.next()) {
+                if (groupGr.group && groupGr.group.getDisplayValue()) {
+                    var groupName = groupGr.group.name ? groupGr.group.name.toString() : groupGr.group.getDisplayValue();
+                    if (result.groups.indexOf(groupName) === -1) {
+                        result.groups.push(groupName);
+                    }
+                }
+            }
+
+        } catch (e) {
+            result.status = 'error';
+            result.message = 'Server Script Error: ' + e.message;
+        }
+
+        return JSON.stringify(result);
+    },
+    type: 'AccessGovernanceUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 11:58:49</sys_created_on>
+        <sys_id>f08aecc5c3b24b502692b0cc05013103</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AccessGovernanceUtils</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>sys_script_include_f08aecc5c3b24b502692b0cc05013103</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 12:51:46</sys_updated_on>
+    </sys_script_include>
+</record_update>
