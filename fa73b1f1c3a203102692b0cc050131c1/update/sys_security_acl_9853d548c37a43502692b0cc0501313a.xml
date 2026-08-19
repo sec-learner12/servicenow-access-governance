@@ -7,7 +7,7 @@
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description>Allow read for records in x_2037341_access_0_access_governance_request, for users with role x_2037341_access_0.user.</description>
+        <description>Allow read for records in x_2037341_access_0_access_governance_request, for users with roles (x_2037341_access_0.user, itil).</description>
         <local_or_existing>Existing</local_or_existing>
         <name>x_2037341_access_0_access_governance_request</name>
         <operation display_value="read">read</operation>
@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-14 12:08:58</sys_created_on>
         <sys_id>9853d548c37a43502692b0cc0501313a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_2037341_access_0_access_governance_request</sys_name>
         <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name>sys_security_acl_9853d548c37a43502692b0cc0501313a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-14 12:08:59</sys_updated_on>
+        <sys_updated_on>2026-08-19 12:21:03</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

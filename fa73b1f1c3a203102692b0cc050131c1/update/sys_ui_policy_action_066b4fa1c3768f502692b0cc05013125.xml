@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>governance_action</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 12:44:56</sys_created_on>
+        <sys_id>066b4fa1c3768f502692b0cc05013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>governance_action</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_066b4fa1c3768f502692b0cc05013125</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-19 12:44:56</sys_updated_on>
+        <table>x_2037341_access_0_access_governance_request</table>
+        <ui_policy display_value="Make the Target User and the Governance Action mandatory fields">161b43a1c3768f502692b0cc050131c6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=066b4fa1c3768f502692b0cc05013125"/>
+</record_update>

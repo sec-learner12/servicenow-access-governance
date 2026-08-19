@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="78dede15c3320f502692b0cc0501316a" sys_domain="global" table="x_2037341_access_0_access_governance_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 14:51:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cddede15c3320f502692b0cc05013170</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2037341_access_0_access_governance_request" name="x_2037341_access_0_access_governance_request" sys_domain="global" view="Default view">78dede15c3320f502692b0cc0501316a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_2037341_access_0_access_governance_request" sys_domain="global" view="Default view">36431548c37a43502692b0cc0501310c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 14:51:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 14:51:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09dede15c3320f502692b0cc05013172</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2037341_access_0_access_governance_request" name="x_2037341_access_0_access_governance_request" sys_domain="global" view="Default view">78dede15c3320f502692b0cc0501316a</sys_ui_form>
+            <sys_ui_section caption="Current Security Context" display_value="Current Security Context" name="x_2037341_access_0_access_governance_request" sys_domain="global" view="Default view">f0dede15c3320f502692b0cc05013166</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 14:51:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 14:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ddede15c3320f502692b0cc05013185</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2037341_access_0_access_governance_request" name="x_2037341_access_0_access_governance_request" sys_domain="global" view="Default view">78dede15c3320f502692b0cc0501316a</sys_ui_form>
+            <sys_ui_section caption="Work Notes &amp; Audit" display_value="Work Notes &amp; Audit" name="x_2037341_access_0_access_governance_request" sys_domain="global" view="Default view">38dede15c3320f502692b0cc05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 14:51:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2037341_access_0_access_governance_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 14:51:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78dede15c3320f502692b0cc0501316a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2037341_access_0_access_governance_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_78dede15c3320f502692b0cc0501316a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 14:51:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

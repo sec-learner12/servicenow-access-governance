@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Current Security Context" section_id="f0dede15c3320f502692b0cc05013166" sys_domain="global" table="x_2037341_access_0_access_governance_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>security_context</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 14:51:19</sys_created_on>
+            <sys_id>19dede15c3320f502692b0cc050131b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Current Security Context" display_value="Current Security Context" name="x_2037341_access_0_access_governance_request" sys_domain="global" view="Default view">f0dede15c3320f502692b0cc05013166</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 14:51:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Current Security Context</caption>
+            <header>false</header>
+            <name>x_2037341_access_0_access_governance_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 14:51:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0dede15c3320f502692b0cc05013166</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2037341_access_0_access_governance_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+            <sys_update_name>sys_ui_section_f0dede15c3320f502692b0cc05013166</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 14:51:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
