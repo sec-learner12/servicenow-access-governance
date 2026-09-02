@@ -20,26 +20,26 @@
             <element>governance_action</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Offboard user</label>
+            <label>Review</label>
             <language>en</language>
             <name>x_2037341_access_0_access_governance_request</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-14 12:21:32</sys_created_on>
+            <sys_created_on>2026-08-14 12:21:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-14 12:21:32</sys_updated_on>
-            <value>offboard_user</value>
+            <sys_updated_on>2026-09-02 14:13:47</sys_updated_on>
+            <value>review_roles_groups</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>governance_action</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Modify Roles</label>
+            <label>Revoke</label>
             <language>en</language>
             <name>x_2037341_access_0_access_governance_request</name>
             <sequence>1</sequence>
@@ -48,29 +48,29 @@
             <sys_created_on>2026-08-14 12:21:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-14 12:21:33</sys_updated_on>
-            <value>modify_roles</value>
+            <sys_updated_on>2026-09-02 14:12:59</sys_updated_on>
+            <value>revoke_roles_groups</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>governance_action</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Privileged Access Renewal</label>
+            <label>Offboard</label>
             <language>en</language>
             <name>x_2037341_access_0_access_governance_request</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-14 12:21:33</sys_created_on>
+            <sys_created_on>2026-08-14 12:21:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-14 12:21:33</sys_updated_on>
-            <value>privileged_access_renewal</value>
+            <sys_updated_on>2026-09-02 14:13:54</sys_updated_on>
+            <value>offboard_user</value>
         </sys_choice>
     </sys_choice>
 </record_update>

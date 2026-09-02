@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="expiration_date" table="x_2037341_access_0_access_governance_request">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Expiration Date</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>expiration_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_2037341_access_0_access_governance_request</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 12:21:30</sys_created_on>
+        <sys_id>7b2655ccc37a43502692b0cc05013172</sys_id>
+        <sys_name>Expiration Date</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>sys_dictionary_x_2037341_access_0_access_governance_request_expiration_date</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 12:21:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</application>
+        <file_path/>
+        <instance_id>6339f5ad93ac4798611eddd548373c34</instance_id>
+        <instance_name>dev394076</instance_name>
+        <name>sys_dictionary_x_2037341_access_0_access_governance_request_expiration_date</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="expiration_date" table="x_2037341_access_0_access_governance_request"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Expiration Date</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>expiration_date</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">glide_date_time</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_2037341_access_0_access_governance_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-14 12:21:30</sys_created_on><sys_id>7b2655ccc37a43502692b0cc05013172</sys_id><sys_name>Expiration Date</sys_name><sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package><sys_policy/><sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope><sys_update_name>sys_dictionary_x_2037341_access_0_access_governance_request_expiration_date</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-14 12:21:31</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-484212064</payload_hash>
+        <record_name>Access Governance Request.Expiration Date</record_name>
+        <reverted_from/>
+        <source>63e1eabdc3e603102692b0cc05013117</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 12:21:32</sys_created_on>
+        <sys_id>8c3695ccc37a43502692b0cc0501316f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0003869b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 12:21:32</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>4c3695cc687a43506391284048fb426e</update_guid>
+        <update_guid_history>4c3695cc687a43506391284048fb426e:-484212064,7f2655cce87a4350116351d5fd7adad8:-1143118077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-02 14:14:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>06ed3d4bc5ea4eeca0120a4e663ce610</sys_id>
+        <sys_metadata>7b2655ccc37a43502692b0cc05013172</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expiration Date</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_parent display_value="Access Governance Request">4a431548c37a43502692b0cc0501313f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_scope_delete display_value="">002422792424478080d17b27e85e9000</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_2037341_access_0_access_governance_request_expiration_date</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_2037341_access_0_access_governance_request_expiration_date">8c3695ccc37a43502692b0cc0501316f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-02 14:14:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

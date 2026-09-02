@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="4a431548c37a43502692b0cc0501313f" extends="task" label="Access Governance Request" max_length="40" name="x_2037341_access_0_access_governance_request" type="collection">
+        <element label="Revoke Groups" max_length="1024" name="revoke_groups" reference="sys_user_grmember" type="glide_list"/>
         <element label="Target User" max_length="32" name="target_user" reference="sys_user" type="reference"/>
-        <element label="Expiration Date" max_length="40" name="expiration_date" type="glide_date_time"/>
         <element label="Security Context" max_length="4000" name="security_context" type="string"/>
-        <element label="Target Role" max_length="32" name="target_role" reference="sys_user" type="reference"/>
+        <element label="Revoke Roles" max_length="1024" name="revoke_roles" reference="sys_user_has_role" type="glide_list"/>
         <element choice="1" label="Governance Action" max_length="40" name="governance_action" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Offboard user" sequence="0" value="offboard_user"/>
-                <element inactive_on_update="false" label="Privileged Access Renewal" sequence="2" value="privileged_access_renewal"/>
-                <element inactive_on_update="false" label="Modify Roles" sequence="1" value="modify_roles"/>
+                <element inactive_on_update="false" label="Offboard" sequence="2" value="offboard_user"/>
+                <element inactive_on_update="false" label="Revoke" sequence="1" value="revoke_roles_groups"/>
+                <element inactive_on_update="false" label="Review" sequence="0" value="review_roles_groups"/>
             </choice>
         </element>
     </element>

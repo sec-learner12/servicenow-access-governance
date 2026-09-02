@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions/>
+        <conditions table="x_2037341_access_0_access_governance_request">governance_action=revoke_roles_groups^EQ<item display_value="Revoke" endquery="false" field="governance_action" goto="false" newquery="false" operator="=" or="false" value="revoke_roles_groups"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
@@ -9,7 +11,7 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>150</order>
+        <order>100</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -19,22 +21,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Make the Target User and the Governance Action mandatory fields</short_description>
+        <short_description>Making revoke roles and revoke groups fields visible when governance action is revoke</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-19 12:43:55</sys_created_on>
+        <sys_created_on>2026-09-02 14:38:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>161b43a1c3768f502692b0cc050131c6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Make the Target User and the Governance Action mandatory fields</sys_name>
+        <sys_id>b09ba34ec3cf03102692b0cc0501311c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Making revoke roles and revoke groups fields visible when governance action is revoke</sys_name>
         <sys_overrides/>
         <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
-        <sys_update_name>sys_ui_policy_161b43a1c3768f502692b0cc050131c6</sys_update_name>
+        <sys_update_name>sys_ui_policy_b09ba34ec3cf03102692b0cc0501311c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-19 12:43:55</sys_updated_on>
+        <sys_updated_on>2026-09-02 14:39:18</sys_updated_on>
         <table>x_2037341_access_0_access_governance_request</table>
         <ui_type>0</ui_type>
         <view/>

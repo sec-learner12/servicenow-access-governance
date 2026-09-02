@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>target_user</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 12:44:24</sys_created_on>
+        <sys_id>e85b4ba1c3768f502692b0cc050131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>target_user</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e85b4ba1c3768f502692b0cc050131cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-19 12:44:24</sys_updated_on>
+        <table>x_2037341_access_0_access_governance_request</table>
+        <ui_policy display_value="Make the Target User and the Governance Action mandatory fields">161b43a1c3768f502692b0cc050131c6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e85b4ba1c3768f502692b0cc050131cd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</application>
+        <file_path/>
+        <instance_id>6339f5ad93ac4798611eddd548373c34</instance_id>
+        <instance_name>dev394076</instance_name>
+        <name>sys_ui_policy_action_e85b4ba1c3768f502692b0cc050131cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>target_user</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-19 12:44:24</sys_created_on><sys_id>e85b4ba1c3768f502692b0cc050131cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>target_user</sys_name><sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package><sys_policy/><sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope><sys_update_name>sys_ui_policy_action_e85b4ba1c3768f502692b0cc050131cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-19 12:44:24</sys_updated_on><table>x_2037341_access_0_access_governance_request</table><ui_policy display_value="Make the Target User and the Governance Action mandatory fields">161b43a1c3768f502692b0cc050131c6</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e85b4ba1c3768f502692b0cc050131cd"/></record_update>]]></payload>
+        <payload_hash>312891325</payload_hash>
+        <record_name>target_user</record_name>
+        <reverted_from/>
+        <source>63e1eabdc3e603102692b0cc05013117</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 12:44:24</sys_created_on>
+        <sys_id>046bcba1c3768f502692b0cc0501318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a01a0d27bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-19 12:44:24</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c06bcba11f768f5083e97a91f6c99d8c</update_guid>
+        <update_guid_history>c06bcba11f768f5083e97a91f6c99d8c:312891325</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-02 14:29:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>7d6277186c4549febe52689dcd901fc4</sys_id>
+        <sys_metadata>e85b4ba1c3768f502692b0cc050131cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>target_user</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_scope_delete display_value="">002422792424478080d17b27e85e9000</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e85b4ba1c3768f502692b0cc050131cd</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e85b4ba1c3768f502692b0cc050131cd">046bcba1c3768f502692b0cc0501318d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-02 14:29:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
