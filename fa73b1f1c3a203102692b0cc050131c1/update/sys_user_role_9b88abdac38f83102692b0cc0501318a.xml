@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>/qBqntDra81KB5/6rJbmwY4VvkEVK+6Y+nbiB6A/naU=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2037341_access_0.audit_table_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>audit_table_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-03 09:03:02</sys_created_on>
+        <sys_id>9b88abdac38f83102692b0cc0501318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2037341_access_0.audit_table_user</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>sys_user_role_9b88abdac38f83102692b0cc0501318a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-03 09:03:02</sys_updated_on>
+    </sys_user_role>
+</record_update>

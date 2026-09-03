@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4948671ec38f83102692b0cc05013199" label="Audit Table" max_length="40" name="x_2037341_access_0_audit_table" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="Target User" max_length="32" name="target_user" reference="sys_user" type="reference"/>
+        <element label="Revoke Name" max_length="400" name="revoke_name" type="string"/>
+        <element label="Access Governance Id" max_length="32" name="access_governance_id" reference="x_2037341_access_0_access_governance_request" type="reference"/>
+        <element choice="1" label="Revoke Type" max_length="40" name="revoke_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Group" sequence="1" value="group"/>
+                <element inactive_on_update="false" label="Role" sequence="0" value="role"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="400" name="short_description" type="string"/>
+        <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
+        <element label="Reqested By" max_length="32" name="reqested_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="access_governance_id"/>
+        </index>
+        <index name="index2">
+            <element name="approved_by"/>
+        </index>
+        <index name="index3">
+            <element name="reqested_by"/>
+        </index>
+        <index name="index4">
+            <element name="target_user"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="revoke_type" table="x_2037341_access_0_audit_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>revoke_type</element>
+            <name>x_2037341_access_0_audit_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-03 09:14:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>revoke_type</sys_name>
+            <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+            <sys_update_name>sys_choice_x_2037341_access_0_audit_table_revoke_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-03 09:14:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>revoke_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Role</label>
+            <language>en</language>
+            <name>x_2037341_access_0_audit_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-03 09:14:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-03 09:14:37</sys_updated_on>
+            <value>role</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>revoke_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group</label>
+            <language>en</language>
+            <name>x_2037341_access_0_audit_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-03 09:14:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-03 09:14:37</sys_updated_on>
+            <value>group</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
