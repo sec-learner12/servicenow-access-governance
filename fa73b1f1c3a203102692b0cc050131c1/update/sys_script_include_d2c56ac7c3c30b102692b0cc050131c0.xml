@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_2037341_access_0.AccessGovernanceRevokeProcessor</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Recieves Request from flow designer after approval and calls the global script include</description>
+        <mobile_callable>false</mobile_callable>
+        <name>AccessGovernanceRevokeProcessor</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AccessGovernanceRevokeProcessor = Class.create();
+AccessGovernanceRevokeProcessor.prototype = {
+    initialize: function() {},
+    processRequest: function(userId, action, groupsList) {
+        var res = {
+            status: 'success',
+            action: action,
+            result: ''
+        };
+        // your branching logic here
+        if (action == 'Offboard user') {
+            var offboard = new global.AccessGovernanceGlobalHelper();
+            var r = offboard.offboardUser(userId);
+            res.result = r;
+        } else if (action == 'Revoke groups') {
+            var revoke = new global.AccessGovernanceGlobalHelper();
+            var groupArray = groupsList.split(',');
+            var resultarr = [];
+            for (var i = 0; i < groupArray.length; i++) {
+                var rr = revoke.revokeGroupMembership(userId, groupArray[i]);
+                resultarr.push(rr);
+            }
+            res.results = resultarr;
+
+        } else if (action == 'Review') {
+            // No automated action for Review — security context already
+            // captured at request-creation time via AccessGovernanceUtils
+
+        } else {
+            res.status = 'error';
+            res.message = 'Unrecognized action: ' + action;
+        }
+        return res;
+    },
+
+    type: 'AccessGovernanceRevokeProcessor'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-05 12:12:09</sys_created_on>
+        <sys_id>d2c56ac7c3c30b102692b0cc050131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AccessGovernanceRevokeProcessor</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>sys_script_include_d2c56ac7c3c30b102692b0cc050131c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-05 12:12:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
