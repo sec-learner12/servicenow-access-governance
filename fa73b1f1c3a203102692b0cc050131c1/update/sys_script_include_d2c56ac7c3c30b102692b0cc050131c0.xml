@@ -12,7 +12,7 @@
         <script><![CDATA[var AccessGovernanceRevokeProcessor = Class.create();
 AccessGovernanceRevokeProcessor.prototype = {
     initialize: function() {},
-    processRequest: function(userId, action, groupsList) {
+     processRequest:function(userId, action, groupsList, requestedBy, approvedBy, accessGovernanceId) {
         var res = {
             status: 'success',
             action: action,
@@ -20,18 +20,88 @@ AccessGovernanceRevokeProcessor.prototype = {
         };
         // your branching logic here
         if (action == 'Offboard user') {
+            var user = new GlideRecord('sys_user');
+            user.addQuery('sys_id', userId);
+            user.query();
+            if (user.next()) {
+                var username = user.name;
+            }
+            var gr1 = new GlideRecord('sys_user_grmember');
+            gr1.addQuery('user', userId);
+            gr1.query();
+            while (gr1.next()) {
+                var grname = gr1.group.getDisplayValue();
+                var auditGr1 = new GlideRecord('x_2037341_access_0_audit_table'); //Creating GlideRecord Query to insert the auditing details into the audit table
+                auditGr1.initialize();
+                auditGr1.target_user = userId;
+                auditGr1.revoke_type = 'Group';
+                auditGr1.revoke_name = grname;
+                auditGr1.reqested_by = requestedBy;
+                auditGr1.approved_by = approvedBy;
+                auditGr1.access_governance_id = accessGovernanceId;
+                auditGr1.short_description = 'Revoked group ' + grname + ' from ' + username;
+                auditGr1.date = new GlideDateTime();
+                auditGr1.insert();
+            }
+            var userHasRole = new GlideRecord('sys_user_has_role');
+            userHasRole.addQuery('user', userId);
+            userHasRole.addQuery('inherited', false);
+            userHasRole.query();
+            while (userHasRole.next()) {
+                var rolename = userHasRole.role.getDisplayValue();
+                var auditGr2 = new GlideRecord('x_2037341_access_0_audit_table'); //Creating GlideRecord Query to insert the auditing details into the audit table
+                auditGr2.initialize();
+                auditGr2.target_user = userId;
+                auditGr2.revoke_type = 'Role';
+                auditGr2.revoke_name = rolename;
+                auditGr2.reqested_by = requestedBy;
+                auditGr2.approved_by = approvedBy;
+                auditGr2.access_governance_id = accessGovernanceId;
+                auditGr2.short_description = 'Revoked role ' + rolename + ' from ' + username;
+                auditGr2.date = new GlideDateTime();
+                auditGr2.insert();
+
+            }
+
             var offboard = new global.AccessGovernanceGlobalHelper();
             var r = offboard.offboardUser(userId);
             res.result = r;
         } else if (action == 'Revoke groups') {
+            var user = new GlideRecord('sys_user');
+            user.addQuery('sys_id', userId);
+            user.query();
+            if (user.next()) {
+                var username = user.name;
+            }
             var revoke = new global.AccessGovernanceGlobalHelper();
             var groupArray = groupsList.split(',');
             var resultarr = [];
             for (var i = 0; i < groupArray.length; i++) {
+                var groupGr = new GlideRecord('sys_user_group');
+                groupGr.addQuery('sys_id', groupArray[i]);
+                groupGr.query();
+                if (groupGr.next()) {
+                    var groupname = groupGr.name;
+                } else {
+                    groupname = 'Unknown Group';
+                }
+                var auditGr = new GlideRecord('x_2037341_access_0_audit_table'); //Creating GlideRecord Query to insert the auditing details into the audit table
+                auditGr.initialize();
+                auditGr.target_user = userId;
+                auditGr.revoke_type = 'Group';
+                auditGr.revoke_name = groupname;
+                auditGr.reqested_by = requestedBy;
+                auditGr.approved_by = approvedBy;
+                auditGr.access_governance_id = accessGovernanceId;
+                auditGr.short_description = 'Revoked group ' + groupname + ' from ' + username;
+                auditGr.date = new GlideDateTime();
+                auditGr.insert();
                 var rr = revoke.revokeGroupMembership(userId, groupArray[i]);
                 resultarr.push(rr);
             }
             res.results = resultarr;
+
+
 
         } else if (action == 'Review') {
             // No automated action for Review — security context already
@@ -50,13 +120,13 @@ AccessGovernanceRevokeProcessor.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-05 12:12:09</sys_created_on>
         <sys_id>d2c56ac7c3c30b102692b0cc050131c0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>AccessGovernanceRevokeProcessor</sys_name>
         <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name>sys_script_include_d2c56ac7c3c30b102692b0cc050131c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-05 12:12:09</sys_updated_on>
+        <sys_updated_on>2026-09-06 09:05:56</sys_updated_on>
     </sys_script_include>
 </record_update>

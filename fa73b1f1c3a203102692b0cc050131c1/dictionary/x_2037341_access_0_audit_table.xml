@@ -12,7 +12,7 @@
         </element>
         <element label="Short Description" max_length="400" name="short_description" type="string"/>
         <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
-        <element label="Reqested By" max_length="32" name="reqested_by" reference="sys_user" type="reference"/>
+        <element label="Requested By" max_length="32" name="reqested_by" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="access_governance_id"/>
         </index>
