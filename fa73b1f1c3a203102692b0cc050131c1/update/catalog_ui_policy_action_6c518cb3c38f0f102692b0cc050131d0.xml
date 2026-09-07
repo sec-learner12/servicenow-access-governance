@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Access Governance Request">0e2b3ba7c34f0f102692b0cc050131b3</catalog_item>
+        <catalog_variable>IO:3abe3f6fc34f0f102692b0cc0501311a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 08:05:07</sys_created_on>
+        <sys_id>6c518cb3c38f0f102692b0cc050131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>revoke_groups</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6c518cb3c38f0f102692b0cc050131d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 08:05:07</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Groups to Revoke variable only when Governance Action is Revoke groups">e80104b3c38f0f102692b0cc050131d0</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>revoke_groups</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c518cb3c38f0f102692b0cc050131d0"/>
+</record_update>
