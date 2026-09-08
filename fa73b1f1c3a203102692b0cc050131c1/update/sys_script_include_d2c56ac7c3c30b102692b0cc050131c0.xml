@@ -19,7 +19,7 @@ AccessGovernanceRevokeProcessor.prototype = {
             result: ''
         };
         // your branching logic here
-        if (action == 'Offboard user') {
+        if (action == 'offboard_user') {
             var user = new GlideRecord('sys_user');
             user.addQuery('sys_id', userId);
             user.query();
@@ -66,7 +66,7 @@ AccessGovernanceRevokeProcessor.prototype = {
             var offboard = new global.AccessGovernanceGlobalHelper();
             var r = offboard.offboardUser(userId);
             res.result = r;
-        } else if (action == 'Revoke groups') {
+        } else if (action == 'revoke_roles_groups') {
             var user = new GlideRecord('sys_user');
             user.addQuery('sys_id', userId);
             user.query();
@@ -103,7 +103,7 @@ AccessGovernanceRevokeProcessor.prototype = {
 
 
 
-        } else if (action == 'Review') {
+        } else if (action == 'review_roles_groups') {
             // No automated action for Review — security context already
             // captured at request-creation time via AccessGovernanceUtils
 
@@ -120,13 +120,13 @@ AccessGovernanceRevokeProcessor.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-05 12:12:09</sys_created_on>
         <sys_id>d2c56ac7c3c30b102692b0cc050131c0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>AccessGovernanceRevokeProcessor</sys_name>
         <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name>sys_script_include_d2c56ac7c3c30b102692b0cc050131c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-06 09:05:56</sys_updated_on>
+        <sys_updated_on>2026-09-08 15:15:42</sys_updated_on>
     </sys_script_include>
 </record_update>
