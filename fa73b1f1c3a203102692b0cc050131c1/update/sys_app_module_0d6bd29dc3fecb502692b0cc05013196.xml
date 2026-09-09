@@ -20,7 +20,7 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>itil,x_2037341_access_0.user</roles>
+        <roles>x_2037341_access_0.user,x_2037341_access_0.approver,x_2037341_access_0.audit_table_user</roles>
         <route/>
         <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0d6bd29dc3fecb502692b0cc05013196</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Open Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name>sys_app_module_0d6bd29dc3fecb502692b0cc05013196</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-18 14:37:21</sys_updated_on>
+        <sys_updated_on>2026-09-09 10:33:03</sys_updated_on>
         <timeline_page/>
         <title>Open Requests</title>
         <uncancelable>false</uncancelable>

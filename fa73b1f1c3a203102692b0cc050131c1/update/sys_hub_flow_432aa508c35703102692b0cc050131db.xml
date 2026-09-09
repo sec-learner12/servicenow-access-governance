@@ -5,7 +5,7 @@
         <active>true</active>
         <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=13850000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=80882000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>29000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -16,20 +16,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>access_governance_request__process_revoke_action</internal_name>
-        <label_cache>[{"name":"Updated_1.current.governance_action","label":"Trigger - Record Updated➛Access Governance Request Record➛Governance Action","reference":"","reference_display":"Governance Action","type":"choice","base_type":"choice","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"governance_action","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Review"}},"sequence":0.0,"label":"Review","selected":false,"used":false,"rawLabel":"Review","image":"","reference":false,"missing":false,"value":"review_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Revoke"}},"sequence":1.0,"label":"Revoke","selected":false,"used":false,"rawLabel":"Revoke","image":"","reference":false,"missing":false,"value":"revoke_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Offboard"}},"sequence":2.0,"label":"Offboard","selected":false,"used":false,"rawLabel":"Offboard","image":"","reference":false,"missing":false,"value":"offboard_user"}],"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["action"]},"attributes":null},{"name":"Updated_1.current.group_list","label":"Trigger - Record Updated➛Access Governance Request Record➛Group list","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"group_list","choices":null,"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]},"attributes":null},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Access Governance Request Record","reference":"x_2037341_access_0_access_governance_request","reference_display":"Access Governance Request","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["accessgovernanceid"]},"attributes":{}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Access Governance Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"sys_id","choices":null,"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["accessgovernanceid"]},"attributes":null},{"name":"Updated_1.current.target_user","label":"Trigger - Record Updated➛Access Governance Request Record➛Target User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"target_user","choices":null,"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["userid"]},"attributes":null},{"name":"Updated_1.current.assigned_to","label":"Trigger - Record Updated➛Access Governance Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"assigned_to","choices":null,"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["approvedby"]},"attributes":null},{"name":"Updated_1.current.revoke_groups","label":"Trigger - Record Updated➛Access Governance Request Record➛Revoke Groups","reference":"sys_user_grmember","reference_display":"Revoke Groups","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"revoke_groups","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]},"attributes":null},{"name":"Updated_1.current.opened_by","label":"Trigger - Record Updated➛Access Governance Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"opened_by","choices":null,"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["requestedby"]},"attributes":null}]</label_cache>
+        <label_cache>[{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.governance_action","label":"1➛Access Governance Request Record➛Governance Action","reference":"","reference_display":"Governance Action","type":"choice","base_type":"choice","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"governance_action","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Review"}},"sequence":0.0,"label":"Review","selected":false,"used":false,"rawLabel":"Review","image":"","reference":false,"missing":false,"value":"review_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Revoke"}},"sequence":1.0,"label":"Revoke","selected":false,"used":false,"rawLabel":"Revoke","image":"","reference":false,"missing":false,"value":"revoke_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Offboard"}},"sequence":2.0,"label":"Offboard","selected":false,"used":false,"rawLabel":"Offboard","image":"","reference":false,"missing":false,"value":"offboard_user"}],"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["action"]}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.revoke_groups","label":"1➛Access Governance Request Record➛Revoke Groups","reference":"sys_user_grmember","reference_display":"Group Member","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"revoke_groups","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.target_user","label":"1➛Access Governance Request Record➛Target User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"target_user","usedInstances":{}},{"name":"Updated_1.current.governance_action","label":"Trigger - Record Updated➛Access Governance Request Record➛Governance Action","reference":"","reference_display":"Governance Action","type":"choice","base_type":"choice","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"governance_action","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Review"}},"sequence":0.0,"label":"Review","selected":false,"used":false,"rawLabel":"Review","image":"","reference":false,"missing":false,"value":"review_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Revoke"}},"sequence":1.0,"label":"Revoke","selected":false,"used":false,"rawLabel":"Revoke","image":"","reference":false,"missing":false,"value":"revoke_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Offboard"}},"sequence":2.0,"label":"Offboard","selected":false,"used":false,"rawLabel":"Offboard","image":"","reference":false,"missing":false,"value":"offboard_user"}],"usedInstances":{}},{"name":"Updated_1.current.group_list","label":"Trigger - Record Updated➛Access Governance Request Record➛Group list","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"group_list","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Access Governance Request Record","reference":"x_2037341_access_0_access_governance_request","reference_display":"Access Governance Request","type":"reference","base_type":"reference","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["accessgovernanceid"]},"attributes":{}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Access Governance Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["accessgovernanceid"],"6b44eb13-0b99-46ba-beb0-f9be3f194457":["conditions"]}},{"name":"Updated_1.current.target_user","label":"Trigger - Record Updated➛Access Governance Request Record➛Target User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"target_user","usedInstances":{}},{"name":"Updated_1.current.assigned_to","label":"Trigger - Record Updated➛Access Governance Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"assigned_to","usedInstances":{}},{"name":"Updated_1.current.revoke_groups","label":"Trigger - Record Updated➛Access Governance Request Record➛Revoke Groups","reference":"sys_user_grmember","reference_display":"Group Member","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"revoke_groups","choices":[{"order":0.0}],"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]}},{"name":"undefined","label":" - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke","usedInstances":{},"attributes":{}},{"name":"Updated_1.current.opened_by","label":"Trigger - Record Updated➛Access Governance Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"opened_by","usedInstances":{}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.target_user.sys_id","label":"1 - Look Up Record➛Access Governance Request Record➛Target User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["userid"]}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.opened_by.sys_id","label":"1 - Look Up Record➛Access Governance Request Record➛Opened by➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["requestedby"]}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.assigned_to.sys_id","label":"1 - Look Up Record➛Access Governance Request Record➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["approvedby"]}}]</label_cache>
         <master_snapshot>6c0f1204c31f03102692b0cc050131bd</master_snapshot>
         <master_snapshot_digest/>
         <name>Access Governance Request - Process Revoke Action</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>7c0f5204c31f03102692b0cc0501313a</remote_trigger_id>
+        <remote_trigger_id>0abe9e5cc3db83102692b0cc05013160</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>432aa508c35703102692b0cc050131db</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Access Governance Request - Process Revoke Action</sys_name>
         <sys_overrides/>
         <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
@@ -45,11 +45,11 @@
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name>sys_hub_flow_432aa508c35703102692b0cc050131db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 16:20:17</sys_updated_on>
+        <sys_updated_on>2026-09-09 08:48:18</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>838cf600c31343102692b0cc050131f5</version_record>
+        <version_record>5abe9e5cc3db83102692b0cc050131e1</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=432aa508c35703102692b0cc050131db"/>
     <sys_variable_value action="delete_multiple" query="document_key=432aa508c35703102692b0cc050131db"/>
@@ -69,15 +69,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-08 14:11:06</sys_created_on>
+        <sys_created_on>2026-09-09 08:48:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7c0f5204c31f03102692b0cc0501313a</sys_id>
+        <sys_id>0abe9e5cc3db83102692b0cc05013160</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:06</sys_updated_on>
+        <sys_updated_on>2026-09-09 08:48:18</sys_updated_on>
         <table>x_2037341_access_0_access_governance_request</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -88,14 +88,14 @@
         <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-08 14:11:06</sys_created_on>
-        <sys_id>380f5204c31f03102692b0cc0501313c</sys_id>
+        <sys_created_on>2026-09-09 08:48:18</sys_created_on>
+        <sys_id>4ebe9e5cc3db83102692b0cc05013161</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:06</sys_updated_on>
-        <trigger display_value="">7c0f5204c31f03102692b0cc0501313a</trigger>
+        <sys_updated_on>2026-09-09 08:48:18</sys_updated_on>
+        <trigger display_value="">0abe9e5cc3db83102692b0cc05013160</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=432aa508c35703102692b0cc050131db^sys_idNOT IN380f5204c31f03102692b0cc0501313c"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=432aa508c35703102692b0cc050131db^sys_idNOT IN4ebe9e5cc3db83102692b0cc05013161"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=432aa508c35703102692b0cc050131db"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=432aa508c35703102692b0cc050131db^sys_idNOT INcf2a6d08c35703102692b0cc050131c5"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -380,17 +380,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-08 16:20:07</sys_created_on>
         <sys_id>b68cf600c31343102692b0cc050131da</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 16:20:07</sys_updated_on>
+        <sys_updated_on>2026-09-09 07:35:38</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=432aa508c35703102692b0cc050131db^sys_idNOT IN759a12c8c3db03102692b0cc050131d6"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=432aa508c35703102692b0cc050131db^sys_idNOT IN759a12c8c3db03102692b0cc050131d6,a2ca4658c39383102692b0cc050131cf"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Process Access Governance Revoke">a2a3160cc39b03102692b0cc050131a6</action_type>
         <action_type_parent display_value="Process Access Governance Revoke">be8e6140c39703102692b0cc05013183</action_type_parent>
@@ -400,24 +400,65 @@
         <display_text/>
         <flow display_value="Access Governance Request - Process Revoke Action">432aa508c35703102692b0cc050131db</flow>
         <generation_source/>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-08 13:51:46</sys_created_on>
         <sys_id>759a12c8c3db03102692b0cc050131d6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 16:09:22</sys_updated_on>
+        <sys_updated_on>2026-09-09 08:49:30</sys_updated_on>
         <ui_id>72852144-468a-4c92-857e-0e20ab8a642d</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+2Y227bOBCGXyXQtWlQPOjgu2yLFgW6W6BtelMUxvAgR4AsqRSV1mvk3XdkyY7jpo68aIoi8CWHM+T8o/nAsT+vg9wEsyAD4DKiWvNUUR5SFqVM4ZJKGvIw1MEkKGFp0RO0tk2zqG6sK6HUFsMnwQ0Ubbe5Xl/VBrw183CqW+ds6afNqpnn5vYW3Uze1AWsPo3z1td5YdAYzD5/mQQ1OEzAWxfM1gdbYxUUoGyBrpcbCRevdxou3phHBPpV3e013uXlYli/HY77sDVWznTpRZPAfve2NBbzyqBo7CRYQolKK7cKZt61aHAWzLuyWO08rvPS42FB5/u9yf/F6xJKaeeZWZSqbb+7W86Havbm7CV4wExa7Vs3uOrrKkctfZGMzaAt/It9W+/wrvZ5VfYhHlSxja6Kdln+0xcl2B2w/XhoaRtMwtad0i73QUj24br69n6b5au83BRl2CwqDcVuBR5Lp1rf5bMO2vzjQZV7yw91toVd4o3zJdQ1Wua1q27yzS2Y9HK6KHAxzYrqG2bX5ItyCrpTOMUvANNXaH+5MX8Cl3dy/8ZjMLi77qrMv7b2TddPWutYUi0JiFgQoRQnKjOSGKpTIVikmQqD20mADfuigKa5KxR+ofnXtpPZl20o0LyvcReiXV77S0zqxg61uJ0MIEYWePjTNjbqrk+dxVQbpEetHiGwwgzQoFZjIbwfcBqHIwRsOXy/VXDx1+pnuk4BT5zBewbgiThhOk4kyTRLiYg68KhmxFqQiYyiNNb6CcBT0bG+tXzvgag73SO4w+RQLZp8NZa8w5DT2BuhYfcGDiLuoXdP2SnkyTN5z4A8xUJKMykIB6OJsDoiANKS2DIe8Tiy1tgnII8d7Voj9kezzWc7Tt3d5Dbv/cey93DgaQSO0LIlcG/8vNzqOtR5CoP8zOAzYDCMubSchUQYbokIDSVJxlOCk2giQ+CUcvbbx0619/otXNXWRd74exhm+GI5KJuscstZEmtImAEiJaAGI1KiBKMkTBiLmLVU2ORhKP/fMb9yQFX7j+TrTuvF217sA/pPwZMdx3OwnPn8w/lMDE9YGEeEpjiiiiiKSZJSRUQqpAkFNqWMn4JPdqxpYe9nIVbfPfqfjAe3sH7e+Y59HQ9DToTu8fy30H3cXHRx1WyKf6jqFOTC84v4DIjTIHmkaIyzKMOpNGRAgHNDdMQUZ5Jym5pfSNyX/wAYEE5rExUAAA==</values>
+        <values>H4sIAAAAAAAA/+2Y0W7bOgyGXyXwdRTIkmzHves2bBiwcwZ0626GIaAkOjXg2J4td8uCvvvo2EnTbM3itT04KHJpiqLIX/wqpp9XXmq9My8BkEHIjZGx5tLnIoyFpk8ecF/6vvHGXg4LJE8wBut6XlxjlUNukLaPvWvImnZxtbosLTi0M39imqrC3E3qZT1L7c0Nudm0LjNYfjrO21ylmSWjd/b5y9groaIEHFbe2Wpv6dgKMtCYkev5uoTRm20No7f2DwW6Zdmu1a5K83n//a4P92FjLCrbpheOPfzuMLdIeSWQ1Tj2FpBTpUW19M5c1ZChQrDv82y59bhKc0fBvNb3e53+oOOmnPPWM0Eq1WC3uv2c9Wp25uQVOKBMGuOaqnc1V0VKtXQiWUygydzLXVvn8L50aZF3WxzobLO7yJpF/m8nircNsLk8sjQ1JYFlW2mbe19I8uGq+HaxyfJ1mq9F6RezwkC2/QJH0unGtfmsvCb9uKdyZ/lFZ8xwQSfOFlCWZJmVVXGdrk+hpBeTeUYfkyQrvlF2dTrPJ2DaCid0AzB5TfZXa/MnqNK23H8oDG1uj7vM068Nvm37yRgTBdwEDFSkmNJaMp3YgFluYqVEaIT2vZuxRw37MoO6vhWKbmj2tWnL7GTrBZp1GrdbTJWW7pySusZei5txD2KIIP1729jq2z6tkFKtiR69vENgqJVC7UvGdRwzFWpgGjVnSaxRJj4lH0STCzTUrZOCciP89PIgpQ+OOIzkIyTYkHyx0WD0YnmfMkPQVSd0nwG6KpoKE00Dlhix7ldClxvBECGYBmEYR8Y8Abo6PNS3KHeemLKt+0HkUtqkA5Hmikdj956Yw+g9QoXtO9zLcAfeO9oMYTc4sfsM2NXC5zwJFJNgDVNoQgYQIItQyFBGIaLFJ2BXHOxaq3bHw/W1/S23t3PlrIv0cGx/H3IYtUfUv6F2Z2w+32ixr80QbuWJ22fArR/JAKXwmbISmfItZ9NExowm6Gngg+Rciv98XNY7b+68KpoyS2u3g+6v5D3ysKp3n7s3bQajd10Kv8lqCDTiMDS95UTN/5yaqZVT4Uch4zGNqyoMIzaNuWYqVoH1FXL6M/8U1IhDTQs7PzJJ/WrvPzxDniYH1RzdrI3yaFPqPTEHYvtnBTbYflyfN7qs19e3r8sQaP3TS/cMmDUQyFDziOZSQROqL4CBlJaZUGgpAi4xto/I7Jef901jfKMVAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=759a12c8c3db03102692b0cc050131d6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Access Governance Request - Process Revoke Action">432aa508c35703102692b0cc050131db</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:21:13</sys_created_on>
+        <sys_id>a2ca4658c39383102692b0cc050131cf</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 08:49:30</sys_updated_on>
+        <ui_id>6b44eb13-0b99-46ba-beb0-f9be3f194457</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXW2/iOBT+K1GeKZsQINC3UStWI81OpbbTl9mR5cQOWGvsjO3QUsR/n+PcYCEFsoVVV/sEOT72uX3fOfb3lcuIe+0OiDdOxuPBKPS8IPC84TCIsR9FwTCOvCjy3Y4r8JyCppbKILNMKYgWmGe1DOsYRITplOPlU7mCHSOdV5DHM8aJosK9/v6j46ZYwWmGKvd6tbN0qjscR5SD6gPYdh4LfxpczH+uwYZkcfX9pdx6UwmlItaVoOPSF0MFoeBDgrmmHXeOBcFGqmUtURSTO8E3ghkTBk5zrfKLZq9gL+hZvYRCVDEt1upPVKaoECe32OAHo7LYZKpULZzVkI9VHWadyIacl+57685G/9Xq4119Qrc3+GvIN6EJzri5+Wc2/bY2e9ZmEeBdapiEqruBrQuOeBW+5NlcfC1q6dYePjWArVi5fQNzmYZk09QW1FaoLFfyMJPP91U1JkzkfpWLXMaY11/YGMWizNi8rNyEoIRRThATnAlrCcpm4UM5nYMFNMdpysQUpUouWH4qxDLvTjl8dBMun20u2FR0cWwj7wKwcHcC8ttc/IQVs1n4A46BzR1rcAZbS3tIx4qlBj0zMqVmY73SItI8Y/5X03qJOFQVKg/PXXdcvdQ3HGu9STbAFP3MbA6K1JfZQ3mh8i25F58gggUtE2UxkNPWP0hbTHYoWhR6Cy/7/aN15zjBhSoLdxaRTrR8y6uydRQ1zzX+3j4mdsH5WixU8D5bCxl552khTRTfp2ArBu5Ty0LtHcy6IIGaGNse+EVujqF/fHBojTc4YwmaQz5ZyilSNAbsaIQVRYnMBEFFcFu0sMlOmNKmVN6nyT2F0gtHAqYcM6NOru3U2i0pdDyOikKfE6cKpLSmHQjEyQNx6kDahd1mZPfPxrf+mfi2GYcTzHheDW1oulVOqpRUb4ztI4U8gIgTZ/qJTvlnder9Q7+JAo3D/4ivZ74SXKZxnX8wxxRH/R4ehoHve57vkdAbhaE/GkbJEIf9ZMNRhLSI4S4BJycAFTgeVdCo6uzt95/iQtG20ZzgVQXBWyn+zDyvFxrHugX1dSq3jjteNpRISk6x2OkojzARfpuU/pd4HXy4rvKvTPH3siFjj7uZLkSNub7U0M/YN8F+ZvSzhdiIer2RT+KrUeiHV/2EDK/GBA+u8DgahAGhcT+5xEWYDA7eQreuArEUhNm49Pa7aakRIxbwAVmtvqUQMiXI78aZgpqYbrG+Xu8TscXOdlw9IaKKqzfbITWFWQ34XdmXpgOqgXRGSnr/JVJ+yKv1hW7Q5ODNE/c3eCqO2zDmBfW8IAz6PlwjoRAaedWfqVxQJbAtraLQFrTZZ82nXNX5vVZ17mvVljQ5HkFFk8cyhJ2ISnLkn02vznzbzqvT+3++Oj/m7Q0cYhwQgooSapmpPJULFPNM5wsKC10+d843e378Ao7Es/TMFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a2ca4658c39383102692b0cc050131cf"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=432aa508c35703102692b0cc050131db"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=432aa508c35703102692b0cc050131db"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=432aa508c35703102692b0cc050131db^sys_idNOT IN591a3ac8c3df03102692b0cc0501311a,911a3ac8c3df03102692b0cc0501311b,98327688c39f03102692b0cc0501314b,d8327688c39f03102692b0cc0501314c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=432aa508c35703102692b0cc050131db^sys_idNOT IN3c7f4a5cc35b83102692b0cc05013101,591a3ac8c3df03102692b0cc0501311a,911a3ac8c3df03102692b0cc0501311b,98327688c39f03102692b0cc0501314b,d8327688c39f03102692b0cc0501314c,f07f4a5cc35b83102692b0cc05013102"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>432aa508c35703102692b0cc050131db</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.revoke_groups}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:41:35</sys_created_on>
+        <sys_id>3c7f4a5cc35b83102692b0cc05013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:41:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>09a0c6ae-2f9d-4be6-9e9c-1d204e2a202d</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>432aa508c35703102692b0cc050131db</attached_to>
         <extra_info/>
@@ -485,6 +526,23 @@
         <transform_compositions>[{"id":"a4dc97e20f3130106d1a3a3485767eb5","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"delimiter","label":"delimiter","order":0,"attributes":{"":""},"value":",","type":"string","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
         <transform_definition_id display_value="join">b6dcd7e20f3130106d1a3a3485767e49</transform_definition_id>
         <ui_id>ddb1b836-26f1-4ae4-b55c-ff6ea6ecf8fd</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>432aa508c35703102692b0cc050131db</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>09a0c6ae-2f9d-4be6-9e9c-1d204e2a202d</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:41:35</sys_created_on>
+        <sys_id>f07f4a5cc35b83102692b0cc05013102</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:41:39</sys_updated_on>
+        <transform_compositions>[{"id":"a4dc97e20f3130106d1a3a3485767eb5","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"delimiter","label":"delimiter","order":0,"attributes":{},"value":",","type":"string","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="join">b6dcd7e20f3130106d1a3a3485767e49</transform_definition_id>
+        <ui_id>7bdd7b14-8782-4dcc-9f10-fdb8574a9ff5</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=432aa508c35703102692b0cc050131db"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -573,7 +631,7 @@
         <description>Triggers when an Access Governance Request reaches Closed Complete; calls AccessGovernanceRevokeProcessor to perform the approved revoke or offboard action.</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>access_governance_request__process_revoke_action</internal_name>
-        <label_cache>[{"name":"Updated_1.current.target_user","label":"Trigger - Record Updated➛Access Governance Request Record➛Target User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"target_user","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["userid"]}},{"name":"Updated_1.current.group_list","label":"Trigger - Record Updated➛Access Governance Request Record➛Group list","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"group_list","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]}},{"name":"Updated_1.current.governance_action","label":"Trigger - Record Updated➛Access Governance Request Record➛Governance Action","reference":"","reference_display":"Governance Action","type":"choice","base_type":"choice","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"governance_action","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Review"}},"sequence":0.0,"label":"Review","selected":false,"used":false,"rawLabel":"Review","image":"","reference":false,"missing":false,"value":"review_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Revoke"}},"sequence":1.0,"label":"Revoke","selected":false,"used":false,"rawLabel":"Revoke","image":"","reference":false,"missing":false,"value":"revoke_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Offboard"}},"sequence":2.0,"label":"Offboard","selected":false,"used":false,"rawLabel":"Offboard","image":"","reference":false,"missing":false,"value":"offboard_user"}],"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["action"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Access Governance Request Record","reference":"x_2037341_access_0_access_governance_request","reference_display":"Access Governance Request","type":"reference","base_type":"reference","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["accessgovernanceid"]},"attributes":{}},{"name":"Updated_1.current.assigned_to","label":"Trigger - Record Updated➛Access Governance Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"assigned_to","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["approvedby"]}},{"name":"Updated_1.current.opened_by","label":"Trigger - Record Updated➛Access Governance Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"opened_by","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["requestedby"]}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Access Governance Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["accessgovernanceid"]}}]</label_cache>
+        <label_cache>[{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.governance_action","label":"1➛Access Governance Request Record➛Governance Action","reference":"","reference_display":"Governance Action","type":"choice","base_type":"choice","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"governance_action","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Review"}},"sequence":0.0,"label":"Review","selected":false,"used":false,"rawLabel":"Review","image":"","reference":false,"missing":false,"value":"review_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Revoke"}},"sequence":1.0,"label":"Revoke","selected":false,"used":false,"rawLabel":"Revoke","image":"","reference":false,"missing":false,"value":"revoke_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Offboard"}},"sequence":2.0,"label":"Offboard","selected":false,"used":false,"rawLabel":"Offboard","image":"","reference":false,"missing":false,"value":"offboard_user"}],"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["action"]}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.revoke_groups","label":"1➛Access Governance Request Record➛Revoke Groups","reference":"sys_user_grmember","reference_display":"Group Member","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"revoke_groups","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.target_user","label":"1➛Access Governance Request Record➛Target User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"target_user","usedInstances":{}},{"name":"Updated_1.current.governance_action","label":"Trigger - Record Updated➛Access Governance Request Record➛Governance Action","reference":"","reference_display":"Governance Action","type":"choice","base_type":"choice","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"governance_action","choices":[{"label":"-- None --","sequence":-1.0,"selected":false,"used":false,"rawLabel":"-- None --","image":"","reference":false,"missing":false,"value":""},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Review"}},"sequence":0.0,"label":"Review","selected":false,"used":false,"rawLabel":"Review","image":"","reference":false,"missing":false,"value":"review_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Revoke"}},"sequence":1.0,"label":"Revoke","selected":false,"used":false,"rawLabel":"Revoke","image":"","reference":false,"missing":false,"value":"revoke_roles_groups"},{"parameters":{"name":"x_2037341_access_0_access_governance_request","dependent_values":[""],"dependent_values_map":{"":"Offboard"}},"sequence":2.0,"label":"Offboard","selected":false,"used":false,"rawLabel":"Offboard","image":"","reference":false,"missing":false,"value":"offboard_user"}],"usedInstances":{}},{"name":"Updated_1.current.group_list","label":"Trigger - Record Updated➛Access Governance Request Record➛Group list","reference":"sys_user_group","reference_display":"Group","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"group_list","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Access Governance Request Record","reference":"x_2037341_access_0_access_governance_request","reference_display":"Access Governance Request","type":"reference","base_type":"reference","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["accessgovernanceid"]},"attributes":{}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Access Governance Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["accessgovernanceid"],"6b44eb13-0b99-46ba-beb0-f9be3f194457":["conditions"]}},{"name":"Updated_1.current.target_user","label":"Trigger - Record Updated➛Access Governance Request Record➛Target User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"target_user","usedInstances":{}},{"name":"Updated_1.current.assigned_to","label":"Trigger - Record Updated➛Access Governance Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"assigned_to","usedInstances":{}},{"name":"Updated_1.current.revoke_groups","label":"Trigger - Record Updated➛Access Governance Request Record➛Revoke Groups","reference":"sys_user_grmember","reference_display":"Group Member","type":"glide_list","base_type":"glide_list","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"revoke_groups","choices":[{"order":0.0}],"usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["grouplist"]}},{"name":"undefined","label":" - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke - Process Access Governance Revoke","usedInstances":{},"attributes":{}},{"name":"Updated_1.current.opened_by","label":"Trigger - Record Updated➛Access Governance Request Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2037341_access_0_access_governance_request","column_name":"opened_by","usedInstances":{}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.target_user.sys_id","label":"1 - Look Up Record➛Access Governance Request Record➛Target User➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["userid"]}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.opened_by.sys_id","label":"1 - Look Up Record➛Access Governance Request Record➛Opened by➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["requestedby"]}},{"name":"6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.assigned_to.sys_id","label":"1 - Look Up Record➛Access Governance Request Record➛Assigned to➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id","usedInstances":{"72852144-468a-4c92-857e-0e20ab8a642d":["approvedby"]}}]</label_cache>
         <master>true</master>
         <name>Access Governance Request - Process Revoke Action</name>
         <natlang/>
@@ -590,7 +648,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6c0f1204c31f03102692b0cc050131bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -598,7 +656,7 @@
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:05</sys_updated_on>
+        <sys_updated_on>2026-09-09 08:48:18</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -623,7 +681,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -683,14 +741,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-08 14:11:05</sys_created_on>
         <sys_id>200f1204c31f03102692b0cc050131c2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:05</sys_updated_on>
+        <sys_updated_on>2026-09-09 08:48:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -708,7 +766,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -768,14 +826,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-08 14:11:05</sys_created_on>
         <sys_id>780f5204c31f03102692b0cc05013105</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:05</sys_updated_on>
+        <sys_updated_on>2026-09-09 08:48:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -793,7 +851,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -853,14 +911,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-08 14:11:05</sys_created_on>
         <sys_id>e00f1204c31f03102692b0cc050131f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:05</sys_updated_on>
+        <sys_updated_on>2026-09-09 07:35:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -888,17 +946,41 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-08 14:11:05</sys_created_on>
         <sys_id>3c0f5204c31f03102692b0cc0501311b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:05</sys_updated_on>
+        <sys_updated_on>2026-09-09 07:35:39</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6c0f1204c31f03102692b0cc050131bd^sys_idNOT INb40f5204c31f03102692b0cc05013119"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6c0f1204c31f03102692b0cc050131bd^sys_idNOT IN7d1eca98c35b83102692b0cc0501313e,b40f5204c31f03102692b0cc05013119"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Access Governance Request - Process Revoke Action">6c0f1204c31f03102692b0cc050131bd</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:35:39</sys_created_on>
+        <sys_id>7d1eca98c35b83102692b0cc0501313e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:35:39</sys_updated_on>
+        <ui_id>6b44eb13-0b99-46ba-beb0-f9be3f194457</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXW2/iOBT+K1GeKZsQINC3UStWI81OpbbTl9mR5cQOWGvsjO3QUsR/n+PcYCEFsoVVV/sEOT72uX3fOfb3lcuIe+0OiDdOxuPBKPS8IPC84TCIsR9FwTCOvCjy3Y4r8JyCppbKILNMKYgWmGe1DOsYRITplOPlU7mCHSOdV5DHM8aJosK9/v6j46ZYwWmGKvd6tbN0qjscR5SD6gPYdh4LfxpczH+uwYZkcfX9pdx6UwmlItaVoOPSF0MFoeBDgrmmHXeOBcFGqmUtURSTO8E3ghkTBk5zrfKLZq9gL+hZvYRCVDEt1upPVKaoECe32OAHo7LYZKpULZzVkI9VHWadyIacl+57685G/9Xq4119Qrc3+GvIN6EJzri5+Wc2/bY2e9ZmEeBdapiEqruBrQuOeBW+5NlcfC1q6dYePjWArVi5fQNzmYZk09QW1FaoLFfyMJPP91U1JkzkfpWLXMaY11/YGMWizNi8rNyEoIRRThATnAlrCcpm4UM5nYMFNMdpysQUpUouWH4qxDLvTjl8dBMun20u2FR0cWwj7wKwcHcC8ttc/IQVs1n4A46BzR1rcAZbS3tIx4qlBj0zMqVmY73SItI8Y/5X03qJOFQVKg/PXXdcvdQ3HGu9STbAFP3MbA6K1JfZQ3mh8i25F58gggUtE2UxkNPWP0hbTHYoWhR6Cy/7/aN15zjBhSoLdxaRTrR8y6uydRQ1zzX+3j4mdsH5WixU8D5bCxl552khTRTfp2ArBu5Ty0LtHcy6IIGaGNse+EVujqF/fHBojTc4YwmaQz5ZyilSNAbsaIQVRYnMBEFFcFu0sMlOmNKmVN6nyT2F0gtHAqYcM6NOru3U2i0pdDyOikKfE6cKpLSmHQjEyQNx6kDahd1mZPfPxrf+mfi2GYcTzHheDW1oulVOqpRUb4ztI4U8gIgTZ/qJTvlnder9Q7+JAo3D/4ivZ74SXKZxnX8wxxRH/R4ehoHve57vkdAbhaE/GkbJEIf9ZMNRhLSI4S4BJycAFTgeVdCo6uzt95/iQtG20ZzgVQXBWyn+zDyvFxrHugX1dSq3jjteNpRISk6x2OkojzARfpuU/pd4HXy4rvKvTPH3siFjj7uZLkSNub7U0M/YN8F+ZvSzhdiIer2RT+KrUeiHV/2EDK/GBA+u8DgahAGhcT+5xEWYDA7eQreuArEUhNm49Pa7aakRIxbwAVmtvqUQMiXI78aZgpqYbrG+Xu8TscXOdlw9IaKKqzfbITWFWQ34XdmXpgOqgXRGSnr/JVJ+yKv1hW7Q5ODNE/c3eCqO2zDmBfW8IAz6PlwjoRAaedWfqVxQJbAtraLQFrTZZ82nXNX5vVZ17mvVljQ5HkFFk8cyhJ2ISnLkn02vznzbzqvT+3++Oj/m7Q0cYhwQgooSapmpPJULFPNM5wsKC10+d843e378Ao7Es/TMFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7d1eca98c35b83102692b0cc0501313e"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Process Access Governance Revoke">a2a3160cc39b03102692b0cc050131a6</action_type>
         <action_type_parent display_value="Process Access Governance Revoke">be8e6140c39703102692b0cc05013183</action_type_parent>
@@ -908,24 +990,126 @@
         <display_text/>
         <flow display_value="Access Governance Request - Process Revoke Action">6c0f1204c31f03102692b0cc050131bd</flow>
         <generation_source/>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-08 14:11:05</sys_created_on>
         <sys_id>b40f5204c31f03102692b0cc05013119</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:05</sys_updated_on>
+        <sys_updated_on>2026-09-09 08:48:18</sys_updated_on>
         <ui_id>72852144-468a-4c92-857e-0e20ab8a642d</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+2YXW/bOgyG/0rg6yiQJX/EvevZsIMB+wC2dTfDYMgSnQpwbE+Wu2VB//uo2E7TrGtsYD04KHIpijT5UnwgJV+2nlbehRcxwf2ISsmTjHKfsihhGS5pSH3ui8ybe6VYA3q2DRgMmXs3omidYbu9qpWwoFJ/IVtjoLQLK8wKbOp8b2/RV+mmLsTm84QQea0LhTvexZevc68WBtNbMN7F9mhrbP2FyKBA10+7RLMrTPSAKrup3bqxRperfv2mj/w4GCujXCX+3IMfFkoFWEIuigbm3lqUqKwyG+/CmhYNBoR6Xxabvce1Li1+zHO+Pxr9E9MtKaXOMwdUJaHb3S/TvnudOX8prMBKWmlb07vK60pLaLp+KMhFW9gXh7bO4X1tdVV2IVZkxRBdFe26fNc1wtt/YDgstGB3UgW1U+pq74XkH6+r7x+GKl/pcteUfrOopCj2K2GxdVlrXT1br9WfjrrcWX7rMxSwxozpWtQ1WtLaVDd6lwWLXi9WBS4WeVF9x+oavSoXQjqFCzwBsXiF9pc782dhtJP7Fj+zO/RWX5X6Wwuv3ehIEfIoozERgkkS+EwQwbkiMmIZZyHlkCjvdu41m+ZFIZrmrlF4Qum31sns2tY3KO167EKk0bW9xKJuoO/F7XwgDh6b2IzfzebKVG1d6MaegG7nlzrHscwdRUxE7rSAAbl/XZ7Zm07CA6qmQMceh663nKn7n1O3VHzJ/DgiNFmGJIiimCwTmpEgCULlB0CDMH4C6lj02NCq4G4+O1GnkKtuwJTCjUvnP5q8BwOnAThCyx7AfbrZ5aDrWOcUCPn55nsGDPoxD4EznwSKA958ipJlzhNCZbgMfcEp5ew/v/nUwVvTAJbaIDnZ5gSIFVaAhmwzFsD7AX/z5lOHj80Pg4LZP5s/6ZoCXnAG7xmAF8RLJmO893LJErz8Mk5wfhgBEEheFCWxlE8AXvbohQEHT06sGnWP4A6LQ7VostVY8o5DprE3QsPA3mUv4h5695RNIS88k/cMyMuYT2keBoQLhT/2QEb4sy8EEgPjEY8jAAVPQF4uBA//OLW+PHyO4Tk2d8/Dk3+1YKWpVmPhO/Cext0IBXvudhJmB2/O1+qEwCkgRmcQnwGIUso4xIcmEUEckCBzV2CuQqKoTIKARZJl/l8E8esvHEDYSekUAAA=</values>
+        <values>H4sIAAAAAAAA/+2Y0W7bOgyGXyXwdRTIkmzHves2bBiwcwZ0626GIaAkOjXg2J4td8uCvvvo2EnTbM3itT04KHJpiqLIX/wqpp9XXmq9My8BkEHIjZGx5tLnIoyFpk8ecF/6vvHGXg4LJE8wBut6XlxjlUNukLaPvWvImnZxtbosLTi0M39imqrC3E3qZT1L7c0Nudm0LjNYfjrO21ylmSWjd/b5y9groaIEHFbe2Wpv6dgKMtCYkev5uoTRm20No7f2DwW6Zdmu1a5K83n//a4P92FjLCrbpheOPfzuMLdIeSWQ1Tj2FpBTpUW19M5c1ZChQrDv82y59bhKc0fBvNb3e53+oOOmnPPWM0Eq1WC3uv2c9Wp25uQVOKBMGuOaqnc1V0VKtXQiWUygydzLXVvn8L50aZF3WxzobLO7yJpF/m8nircNsLk8sjQ1JYFlW2mbe19I8uGq+HaxyfJ1mq9F6RezwkC2/QJH0unGtfmsvCb9uKdyZ/lFZ8xwQSfOFlCWZJmVVXGdrk+hpBeTeUYfkyQrvlF2dTrPJ2DaCid0AzB5TfZXa/MnqNK23H8oDG1uj7vM068Nvm37yRgTBdwEDFSkmNJaMp3YgFluYqVEaIT2vZuxRw37MoO6vhWKbmj2tWnL7GTrBZp1GrdbTJWW7pySusZei5txD2KIIP1729jq2z6tkFKtiR69vENgqJVC7UvGdRwzFWpgGjVnSaxRJj4lH0STCzTUrZOCciP89PIgpQ+OOIzkIyTYkHyx0WD0YnmfMkPQVSd0nwG6KpoKE00Dlhix7ldClxvBECGYBmEYR8Y8Abo6PNS3KHeemLKt+0HkUtqkA5Hmikdj956Yw+g9QoXtO9zLcAfeO9oMYTc4sfsM2NXC5zwJFJNgDVNoQgYQIItQyFBGIaLFJ2BXHOxaq3bHw/W1/S23t3PlrIv0cGx/H3IYtUfUv6F2Z2w+32ixr80QbuWJ22fArR/JAKXwmbISmfItZ9NExowm6Gngg+Rciv98XNY7b+68KpoyS2u3g+6v5D3ysKp3n7s3bQajd10Kv8lqCDTiMDS95UTN/5yaqZVT4Uch4zGNqyoMIzaNuWYqVoH1FXL6M/8U1IhDTQs7PzJJ/WrvPzxDniYH1RzdrI3yaFPqPTEHYvtnBTbYflyfN7qs19e3r8sQaP3TS/cMmDUQyFDziOZSQROqL4CBlJaZUGgpAi4xto/I7Jef901jfKMVAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b40f5204c31f03102692b0cc05013119"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6c0f1204c31f03102692b0cc050131bd"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6c0f1204c31f03102692b0cc050131bd"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6c0f1204c31f03102692b0cc050131bd"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6c0f1204c31f03102692b0cc050131bd^sys_idNOT IN127f4e5cc35b83102692b0cc05013197,351eca98c35b83102692b0cc05013169,5a7f4e5cc35b83102692b0cc05013196,791eca98c35b83102692b0cc05013169,b11eca98c35b83102692b0cc05013168,fd1eca98c35b83102692b0cc05013168"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6c0f1204c31f03102692b0cc050131bd</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>09a0c6ae-2f9d-4be6-9e9c-1d204e2a202d</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:41:41</sys_created_on>
+        <sys_id>127f4e5cc35b83102692b0cc05013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:41:41</sys_updated_on>
+        <transform_compositions>[{"id":"a4dc97e20f3130106d1a3a3485767eb5","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"delimiter","label":"delimiter","order":0,"attributes":{},"value":",","type":"string","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="join">b6dcd7e20f3130106d1a3a3485767e49</transform_definition_id>
+        <ui_id>7bdd7b14-8782-4dcc-9f10-fdb8574a9ff5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6c0f1204c31f03102692b0cc050131bd</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>4836f7d2-4443-4d68-9862-ca3a49ef77d7</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:35:39</sys_created_on>
+        <sys_id>351eca98c35b83102692b0cc05013169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:35:39</sys_updated_on>
+        <transform_compositions>[{"id":"a4dc97e20f3130106d1a3a3485767eb5","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"delimiter","label":"delimiter","order":0,"attributes":{"":""},"value":",","type":"string","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="join">b6dcd7e20f3130106d1a3a3485767e49</transform_definition_id>
+        <ui_id>ddb1b836-26f1-4ae4-b55c-ff6ea6ecf8fd</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6c0f1204c31f03102692b0cc050131bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6b44eb13-0b99-46ba-beb0-f9be3f194457.Record.revoke_groups}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:41:41</sys_created_on>
+        <sys_id>5a7f4e5cc35b83102692b0cc05013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:41:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>09a0c6ae-2f9d-4be6-9e9c-1d204e2a202d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6c0f1204c31f03102692b0cc050131bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.revoke_groups}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:35:39</sys_created_on>
+        <sys_id>791eca98c35b83102692b0cc05013169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:35:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>87ca82da-55ae-4d49-b420-182262ee04e8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6c0f1204c31f03102692b0cc050131bd</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>87ca82da-55ae-4d49-b420-182262ee04e8</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:35:39</sys_created_on>
+        <sys_id>b11eca98c35b83102692b0cc05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:35:39</sys_updated_on>
+        <transform_compositions>[{"id":"a4dc97e20f3130106d1a3a3485767eb5","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"delimiter","label":"delimiter","order":0,"attributes":{"":""},"value":",","type":"string","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="join">b6dcd7e20f3130106d1a3a3485767e49</transform_definition_id>
+        <ui_id>aa4bb92b-004a-41cb-b1fc-3ec17e8b88a0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6c0f1204c31f03102692b0cc050131bd</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Updated_1.current.group_list}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 07:35:39</sys_created_on>
+        <sys_id>fd1eca98c35b83102692b0cc05013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 07:35:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4836f7d2-4443-4d68-9862-ca3a49ef77d7</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=6c0f1204c31f03102692b0cc050131bd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
@@ -1009,18 +1193,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"380f5204c31f03102692b0cc0501313d","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
         <plan_id>432aa508c35703102692b0cc050131db</plan_id>
-        <snapshot>77a9fa88c3df03102692b0cc050131d4</snapshot>
+        <snapshot>c7d6e6dcc31f83102692b0cc05013177</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-09-08 14:11:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>380f5204c31f03102692b0cc0501313d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-08 14:11:06</sys_updated_on>
-        <trigger display_value="">7c0f5204c31f03102692b0cc0501313a</trigger>
+        <sys_updated_on>2026-09-09 08:48:18</sys_updated_on>
+        <trigger display_value="">0abe9e5cc3db83102692b0cc05013160</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=432aa508c35703102692b0cc050131db"/>
 </record_update>

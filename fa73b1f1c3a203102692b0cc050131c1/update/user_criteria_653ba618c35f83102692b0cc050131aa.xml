@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>Access Governance Requesters</name>
+        <role>64f92a54c35f83102692b0cc05013130,dc796a14c35f83102692b0cc05013154</role>
+        <script/>
+        <short_description/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 09:44:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>653ba618c35f83102692b0cc050131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Access Governance Requesters</sys_name>
+        <sys_package display_value="Access Governance Engine" source="x_2037341_access_0">fa73b1f1c3a203102692b0cc050131c1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Governance Engine">fa73b1f1c3a203102692b0cc050131c1</sys_scope>
+        <sys_update_name>user_criteria_653ba618c35f83102692b0cc050131aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 09:44:39</sys_updated_on>
+        <user/>
+    </user_criteria>
+    <sys_translated_text action="delete_multiple" query="documentkey=653ba618c35f83102692b0cc050131aa"/>
+</record_update>
